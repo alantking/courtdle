@@ -179,7 +179,7 @@ function genResultGrid() {
     </div>
   </Transition>
   <header>
-<h1 style="font-size: 3rem;",class="title">
+<h1 style="font-size: 3rem;" class="title">
     <span class="title-emoji">🎄</span>
     <span>Courtdle</span>
     <span class="title-emoji">💅</span>
