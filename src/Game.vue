@@ -178,29 +178,13 @@ function genResultGrid() {
       <pre v-if="grid">{{ grid }}</pre>
     </div>
   </Transition>
-<template>
-  <header class="game-header">
-    <h1 class="title">Courtdle 🏛️⚖️</h1>
-  </header>
-</template>
-
-<script>
-export default {
-  name: "Game"
-}
-</script>
-
-<style scoped>
-.game-header {
-  text-align: center; /* centers the header */
-  margin: 2rem 0;     /* optional spacing above and below */
-}
-
-.title {
-  font-size: 3rem;    /* makes text and emojis bigger */
-  line-height: 1.2;   /* adjusts spacing for taller emojis */
-  font-weight: bold;  /* optional: makes text bolder */
-}
+  <header>
+  <h1 class="title">
+    <span class="title-emoji">🎄</span>
+    <span>Courtdle</span>
+    <span class="title-emoji">💅</span>
+  </h1>
+</header>
 </style>
   <div id="board">
     <div
