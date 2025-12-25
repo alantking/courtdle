@@ -5,7 +5,7 @@ import Keyboard from './Keyboard.vue'
 import { LetterState } from './types'
 
 // Get word of the day
-const answer = getWordOfTheDay()
+const answer = 'trout'
 
 // Board state. Each tile is represented as { letter, state }
 const board = $ref(
@@ -179,13 +179,9 @@ function genResultGrid() {
     </div>
   </Transition>
   <header>
-    <h1>VVORDLE</h1>
-    <a
-      id="source-link"
-      href="https://github.com/yyx990803/vue-wordle"
-      target="_blank"
-      >Source</a
-    >
+    <span class="title-emoji">🎄</span>
+    <span>Courtdle</span>
+    <span class="title-emoji">💅</span>
   </header>
   <div id="board">
     <div
