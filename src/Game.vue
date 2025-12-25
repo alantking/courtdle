@@ -185,7 +185,7 @@ function genResultGrid() {
     <span class="title-emoji">💅</span>
   </h1>
 </header>
-</style>
+
   <div id="board">
     <div
       v-for="(row, index) in board"
