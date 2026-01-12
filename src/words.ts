@@ -27,6 +27,7 @@ export function getWordOfTheDay() {
 // copied from Wordle source
 const answers = [
   'blanc',
+  'penis',
   'cigar',
   'rebut',
   'sissy',
