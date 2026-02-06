@@ -26,6 +26,7 @@ export function getWordOfTheDay() {
 
 // copied from Wordle source
 const answers = [
+  'saran',
   'blanc',
   'penis',
   'cigar',
@@ -10256,7 +10257,6 @@ const allowedGuesses = [
   'sapan',
   'sapid',
   'sapor',
-  'saran',
   'sards',
   'sared',
   'saree',
