@@ -27,6 +27,8 @@ export function getWordOfTheDay() {
 // copied from Wordle source
 const answers = [
   'saran',
+  'lucha',
+  'libre',
   'blanc',
   'penis',
   'cigar',
