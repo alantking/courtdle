@@ -26,6 +26,7 @@ export function getWordOfTheDay() {
 
 // copied from Wordle source
 const answers = [
+  'lexie'
   'saran',
   'lucha',
   'libre',
