@@ -5,7 +5,7 @@ import Keyboard from './Keyboard.vue'
 import { LetterState } from './types'
 
 // Get word of the day
-const answer = 'grace'
+const answer = 'lexie'
 
 // Board state. Each tile is represented as { letter, state }
 const board = $ref(
@@ -180,9 +180,9 @@ function genResultGrid() {
   </Transition>
   <header>
 <h1 style="font-size: 3rem;" class="title">
-    <span class="title-emoji">🪨</span>
+    <span class="title-emoji">🧈</span>
     <span>Courtdle</span>
-    <span class="title-emoji">🤖</span>  
+    <span class="title-emoji">🍆</span>  
 </h1>
 </header>
   <div id="board">
