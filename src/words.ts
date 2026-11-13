@@ -27,6 +27,7 @@ export function getWordOfTheDay() {
 // copied from Wordle source
 const answers = [
   'aioli',
+  'andie',
   'lexie',
   'saran',
   'lucha',
